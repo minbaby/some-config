@@ -10,4 +10,4 @@ npm set electron_mirror http://cdn.npm.taobao.org/dist/electron/ # electron 二�
 npm set selenium_cdnurl=http://npm.taobao.org/mirrors/selenium
 npm set node_inspector_cdnurl=https://npm.taobao.org/mirrors/node-inspector
 
-npm cache clean # 清空缓存
+npm cache clean --force # 清空缓存
