@@ -10,4 +10,9 @@ npm set electron_mirror http://cdn.npm.taobao.org/dist/electron/ # electron 二�
 npm set selenium_cdnurl=http://npm.taobao.org/mirrors/selenium
 npm set node_inspector_cdnurl=https://npm.taobao.org/mirrors/node-inspector
 
+
+# 镜像方案使用这个方案
+# https://github.com/cnpm/mirrors/issues/76
+npm set fse_binary_host_mirror=https://npm.taobao.org/mirrors/fsevents
+
 npm cache clean --force # 清空缓存
