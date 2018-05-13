@@ -2,7 +2,7 @@ echo "backup CentOS-Base"
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 
 echo "use ustc CentOS-Base"
-mv ./source/CentOS-Base-6.repo /etc/yum.repos.d/CentOS-Base.repo
+cp ./source/CentOS-Base-6.repo /etc/yum.repos.d/CentOS-Base.repo
 
 sudo yum makecache
 
